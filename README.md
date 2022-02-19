@@ -12,7 +12,7 @@ npm i chess-analysis-js
 O pacote exporta uma classe que deve ser instanciada com uma string contendo o endereço para uma engine uci (como o stockfish)
 
 ```js
-const Analysis = require("chess-analysis");
+const Analysis = require("chess-analysis-js");
 const analysis = new Analysis("stockfish.exe");
 ```
 
@@ -25,7 +25,7 @@ analysis.game(pgn, onComplete, onMove);
 ## Examples
 
 ```js
-const Analysis = require("chess-analysis");
+const Analysis = require("chess-analysis-js");
 const { join } = require("path");
 
 const analysis = new Analysis(join(process.cwd(), "stockfish_14.1_win_32bit.exe"));
