@@ -1,5 +1,5 @@
 {
-  "name": "chess-analysis",
+  "name": "chess-analysis-js",
   "description": "Analizador de partidas de xadrez",
   "main": "src/Analysis.js",
   "dependencies": {
