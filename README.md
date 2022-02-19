@@ -4,7 +4,7 @@ Analizador de partidas de xadrez
 ## Instalação
 
 ```
-npm i chess-analysis
+npm i chess-analysis-js
 ```
 
 ## Como usar
