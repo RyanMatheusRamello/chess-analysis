@@ -1,0 +1,10 @@
+{
+  "name": "chess-analysis",
+  "description": "Analizador de partidas de xadrez",
+  "main": "src/Analysis.js",
+  "dependencies": {
+    "chess.js": "^0.12.1",
+    "node-uci": "^1.3.4",
+    "uci": "^0.3.4"
+  }
+}
