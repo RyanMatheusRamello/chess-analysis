@@ -57,7 +57,6 @@ module.exports = class Response {
         this.calculePrecision = () => {
             let white = moves.white.filter(e => e.pts !== undefined);
             let black = moves.black.filter(e => e.pts !== undefined);
-            console.log(white);
             moves.precision.white = (white.reduce((previousValue, currentValue) => previousValue + currentValue.pts, 0)/white.length).toFixed(1);
             moves.precision.black = (black.reduce((previousValue, currentValue) =>  previousValue + currentValue.pts, 0 )/black.length).toFixed(1);;
             return true;
